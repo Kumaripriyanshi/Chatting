@@ -1,0 +1,82 @@
+.JoinPage{
+    
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.JoinContainer{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    height: 50%;
+    margin-top: 15px;
+    width: 50%;
+    box-shadow: 17px 0px 38px 1px blue;
+
+}
+
+.heading{
+    width: 50%;
+    /* background-color: antiquewhite; */
+    height: 100%;
+    color: white;
+    /* text-align: center; */
+    /* vertical-align: middle; */
+    /* margin-top: 44%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-part input{
+    height: 37px;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 31px;
+    width: 263px;
+    /* border-radius: 12px; */
+}
+
+.input-part input :focus{
+    outline: none;
+}
+
+::placeholder{
+    color: blue;
+    font-weight: bold;
+}
+.input-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+
+.joinbtn{
+    height: 45px;
+    width: 179px;
+    /* border-radius: 8px; */
+    outline: none;
+    font-size: 21px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background-color: #070a52;
+    transition: all 1s;
+    /* box-shadow: 8px 4px 42px 0px white; */
+}
+
+.joinbtn:hover{
+    transform: translate(10px ,4px);
+}
